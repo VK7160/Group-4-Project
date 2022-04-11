@@ -1,0 +1,76 @@
+/* Code for button starts here */
+
+.button {
+    border: none;
+    color: rgb(253, 252, 152);
+    padding: 17px 34px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 15px;
+    margin: 6px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgb(255, 255, 143);
+    color: black;
+    border: 3px solid #59ddd4;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: rgb(255, 255, 143);
+    color: black;
+    border: 3px solid #59ddd4;
+}
+
+.button2:hover {
+    background-color: #fa1919;
+    color: white;
+}
+
+
+/* Code for button ends here */
+
+
+/* Code for water tank starts here */
+
+.progress {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    line-height: 200px;
+    text-align: center;
+    color: #ddd;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress__fill {
+    width: 100%;
+    height: 50%;
+    background: #009579;
+    transition: all 0.2s;
+}
+
+.progress__text {
+    position: absolute;
+    top: 0%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px "Quicksand", sans-serif;
+    color: #ffffff;
+}
+
+
+/* Code for water tank ends here  */
