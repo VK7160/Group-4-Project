@@ -1,0 +1,90 @@
+
+
+
+
+/*contact-css*/
+.contact-section{
+    background-image: url(../img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    position: relative;
+    z-index: -2;
+    display: flex;
+    padding: 68px 0px;
+}
+.contact-section::before{
+    content: "";
+    background: #F5EA36;
+    opacity: 0.89;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.contact-section .icon-img{
+    width: 149px;
+    height: 149px;
+    background:#41367B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+}
+.contact-section .contect-headings h2{
+    font-size: 34px;
+    font-family: pop_semiBold;
+    text-align: center;
+}
+.contact-section .contect-headings p{
+    font-size: 16px;
+    color:#000;
+    font-family: Poppins-Medium;
+}
+.contact-section .contect-headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-from-section{
+    background:#fff;
+}
+.contact-from-section .align-up{
+    position: relative;
+    top: -120px;
+}
+.form-section-new{
+    background: #fff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+}
+.form-section h2{
+    font-size: 25px;
+    color:#000;
+    font-family: Poppins-Medium;
+}
+.form-section p{
+    font-size: 14px;
+    color:#6A6A6A;
+    margin-top: 10px!important;
+}
+.form-section .from-111{
+  font-size: 16px;
+  color:#000;
+  font-family: Poppins-Medium;  
+}
+.form-custom{
+    height: 45px;
+    background-color: #F6F6F6;
+    border: 0px;
+    border-radius: 3px !important;
+}
+.form-custom-1{
+    background-color: #F6F6F6 !important;
+    border: 0px;
+    border-radius: 3px !important;
+}
+
+
